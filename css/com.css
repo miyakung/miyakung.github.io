@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+
+* {
+	font-family: 'cwTeXHei', sans-serif;
+	letter-spacing: 1px; 
+}
+
+/* nav */
+.navbar {
+	height: 70px;
+	font-size: 1.5em;
+}
+.collapse {
+	padding-top: 20px;
+}
+.navbar-fixed-top {
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  	box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+
+/* foooter */
+footer {
+	color:#FFFFFF;
+	font-size:1.2em;
+	background-color:#145f8f;
+}
+footer ul {
+	padding-left: 0;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style:none;
+	line-height:2.5em;
+}
+ul li a:link , ul li a:visited {
+	display:block;
+	color:#fff;
+}
+.about, .offiec, .social {
+	margin-top: 50px;
+	padding-left: 5%;
+}
+.border {
+	border-color: #2178A1;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-style:solid;
+	border-right-width:1px;
+}
+.offiec ul {
+	line-height:2em;
+}
+.social-icons a {
+  display: inline-block;
+  background: #0c86ae;
+  width: 48px;
+  height: 48px;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 6px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin-right: 8px;
+  float: left;
+}
+.social-icons a:hover {
+  background: #e6ad14;
+}
+.copyright {
+	padding-top: 3%;
+	padding-bottom: 2%;
+}

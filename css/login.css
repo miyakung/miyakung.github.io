@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* content */
+header {
+	padding-top: 10%;
+	padding-bottom: 15%;
+	background-color: #e6e6e6;
+}
+.login-box {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-width: 1px; 
+	border-style: solid;
+	border-color: #cccccc;
+	background-color: white;
+}
+.btn-default {
+	margin-bottom: 50px;
+	background-color: #0b8db9;
+	border-color: #0b8db9;
+	padding: 10px 40px;
+	font-size: 1.2em;
+	color: #fff;
+}
+.btn-default:hover {
+	background-color: #0eb5f0;
+	border-color: #0eb5f0;
+}
+.checkbox {
+	width: 30%;
+}
+span {
+	color: #104573;
+	font-size: 1.2em;
+}

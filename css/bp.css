@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.A {
+	height:200px;
+	background-color:red;
+}
+.B {
+	height:200px;
+	background-color:black;
+}
+.C {
+	height:200px;
+	background-color:yellow;
+}
+.D {
+	height:200px;
+	background-color:blue;
+}

@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css); 
+
+* {
+	font-family: 'cwTeXHei', sans-serif; 
+}
+.navbar {
+	height:80px;
+}
+.content {
+	width: 100%;
+	height:900px;
+	background-color:#E6E6E6;
+	margin-bottom:-10px;
+}
+
+
+
+
+/* foooter */
+.footer-about {
+	width:100%;
+	height:300px;
+	background-color:#145f8f;
+	color:#FFFFFF;
+	padding-top:40px;
+	text-align:left;
+	font-size:1.2em;
+}
+.about {
+	margin-left:80px;
+}
+ul {
+	padding-left:0;
+}
+li {
+	list-style:none;
+	line-height:2.5em;
+}
+ul li a:link , ul li a:visited {
+	display:block;
+	text-align:left;
+	color:#fff;
+	text-decoration:none;
+}
+.border {
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-style:solid;
+	border-right-width:1px;
+	padding-left:50px;
+}
+.footer-col {
+	padding-right:0;
+}
+.footer-offiec {
+	margin-left:20px;
+	line-height:2em;
+}
+.social {
+	width:300px;
+	padding-bottom:20px;
+	padding-left:100px;
+}
+.fb {
+	float:left;
+}
+.google {
+	float:left;
+	margin-left:20px;
+}
+.linkedin {
+	float:left;
+	margin-left:20px;
+}

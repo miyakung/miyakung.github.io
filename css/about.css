@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* content */
+
+header {
+	  padding-top: 12%;
+	  padding-bottom: 7%;
+	  background-color: #e6e6e6;
+}
+.box {
+	  width:60%;
+	  padding: 50px;
+	  margin: 0 auto;
+	  line-height: 1.6em;
+	  font-size: 1.2em;
+	  border-width: 1px; 
+	  border-style: solid;
+	  border-color: #cccccc;
+	  background-color: white;
+} 
+.box h2 {
+	color: #145F8F;
+}
+
+@media (max-width: 768px) {
+header {
+	  padding-top: 20%;
+	  padding-bottom: 5%;
+}
+.box {
+	  width:90%;
+	  padding: 30px;
+	  font-size: 1.3em;
+	  line-height: 1.6em;
+}
